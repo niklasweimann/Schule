@@ -1,0 +1,32 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in extensions\SuMAkzeptor.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in extensions\SuMGenerator.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in extensions\SuMTransduktor.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\mysql-connector-java-5.1.15-bin.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\SuMEreignis.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\SuMKern.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\SuMKomponenten.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\SuMMultimedia.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\SuMNetz.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\SuMSQL.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\SuMStrukturen.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\SuMWerkzeuge.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\xpp3_min-1.1.3.4.I.jar;C:\Users\Niklas\Desktop\Programmieren\Programme\Java\BlueJ erweiterung Stift und Maus\Bibs\in userlib\xstream-1.1.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\mysql-connector-java-5.1.15-bin.jar;C:\Program Files (x86)\BlueJ\lib\userlib\QTJava.zip;C:\Program Files (x86)\BlueJ\lib\userlib\SuMEreignis.jar;C:\Program Files (x86)\BlueJ\lib\userlib\SuMKern.jar;C:\Program Files (x86)\BlueJ\lib\userlib\SuMKomponenten.jar;C:\Program Files (x86)\BlueJ\lib\userlib\SuMMultimedia.jar;C:\Program Files (x86)\BlueJ\lib\userlib\SuMNetz.jar;C:\Program Files (x86)\BlueJ\lib\userlib\SuMSQL.jar;C:\Program Files (x86)\BlueJ\lib\userlib\SuMStrukturen.jar;C:\Program Files (x86)\BlueJ\lib\userlib\SuMWerkzeuge.jar;C:\Program Files (x86)\BlueJ\lib\userlib\xpp3_min-1.1.3.4.I.jar;C:\Program Files (x86)\BlueJ\lib\userlib\xstream-1.1.2.jar;C:\Users\Niklas\Desktop\Programmieren\Projekte\Java\Malen
+-d
+C:\Users\Niklas\Desktop\Programmieren\Projekte\Java\Malen\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+C:\Users\Niklas\Desktop\Programmieren\Projekte\Java\Malen\Hauszeichnen.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Niklas\Desktop\Programmieren\Projekte\Java\Malen\Hauszeichnen.java...
+C:\Users\Niklas\Desktop\Programmieren\Projekte\Java\Malen\Hauszeichnen.java:23: error: ';' expected
+        mS.bewegeBis(200, 200)
+                              ^
+1 error

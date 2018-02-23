@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=pBildschirm
+comment0.target=Waggon(sum.kern.Bildschirm)
+comment1.params=
+comment1.target=void\ zeichne()
+comment2.params=
+comment2.target=double\ hPosition()
+comment3.params=
+comment3.target=double\ vPosition()
+comment4.params=XPos\ YPos
+comment4.target=void\ bewegeBis(double,\ double)
+comment5.params=newSpeed
+comment5.target=void\ setzeGeschwindigkeit(double)
+comment6.params=
+comment6.target=double\ zeigeSpeed()
+comment7.params=
+comment7.target=void\ bewege()
+comment8.params=speed
+comment8.target=void\ setGeschwindigkeit(double)
+numComments=9

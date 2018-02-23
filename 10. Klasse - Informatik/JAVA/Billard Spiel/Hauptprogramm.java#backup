@@ -1,0 +1,38 @@
+import sum.kern.*;
+import sum.werkzeuge.Uhr;
+/**
+ * @author Niklas Weimann
+ * @version 1.0.0
+ */
+public class Hauptprogramm
+{
+    // Objekte
+    Bildschirm derBildschirm;
+    Buntstift meinStift;
+    Kugel meineKugel;
+    Uhr meineUhr;
+
+    // Konstruktor
+    public Hauptprogramm()
+    {
+        derBildschirm = new Bildschirm(500,500);
+        meinStift = new Buntstift();
+        meineKugel = new Kugel(100, 100,1);
+        meineUhr = new Uhr();
+    }
+
+    // Dienste
+    public void fuehreAus()
+    {
+        // Aktionsteil
+        for (int i = 1;i<=5; i++){
+            meineKugel.zeichne();
+            meineKugel.setzeWinkel(10);
+            meineKugel.bewegeUm(-100);
+            //meineUhr.warte(5);
+        }
+        // Aufraeumen
+        meinStift.gibFrei();
+        derBildschirm.gibFrei();
+    }
+}

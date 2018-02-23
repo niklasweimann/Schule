@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=pBildschirm
+comment0.target=Personenwaggon(sum.kern.Bildschirm)
+comment1.params=
+comment1.target=void\ fuehreAus()
+comment2.params=
+comment2.target=void\ zeichne()
+comment2.text=\r\n\ Gibt\ alle\ verwendeten\ Objekte\ frei.\r\n\ \r\n
+numComments=3

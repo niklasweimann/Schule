@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=pBildschirm
+comment0.target=Gueterwaggon(sum.kern.Bildschirm)
+comment1.params=
+comment1.target=void\ fuehreAus()
+comment2.params=
+comment2.target=void\ zeichne()
+comment2.text=\r\n\ Ein\ Beispiel\ einer\ Methode\ -\ ersetzen\ Sie\ diesen\ Kommentar\ mit\ Ihrem\ eigenen\r\n\ \r\n\ @param\ \ y\ \ \ \ (Beschreibung\ des\ Parameters)\r\n\ @return\ \ \ \ \ \ (Beschreibung\ des\ R\u00FCckgabewertes)\r\n
+numComments=3
