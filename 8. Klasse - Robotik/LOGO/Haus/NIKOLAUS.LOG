@@ -1,0 +1,39 @@
+PR nikolaus
+wh 4[vw 100
+ re 90]
+re 45
+vw 140
+li 75
+vw 100
+li 120
+vw 100
+li 75
+vw 140
+li 135
+
+wh 4[vw 50
+ re 90]
+re 45
+vw 70
+li 75
+vw 50
+li 120
+vw 50
+li 75
+vw 70
+li 135
+ENDE
+PR nikolaus2 :l�nge
+wh 4[vw :l�nge
+ re 90]
+vw 100
+re 45
+vw :l�nge * 1,4
+re 90
+vw :l�nge
+li 120
+vw :l�nge
+re 75
+vw :l�nge * 1,4
+li 135
+ENDE

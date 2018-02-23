@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=pAbsender\ pEmpfaenger\ pBetreff\ pDatum\ pInhalt
+comment0.target=EMail(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getAbsender()
+comment10.params=pInhalt
+comment10.target=void\ setInhalt(java.lang.String)
+comment2.params=pAbsender
+comment2.target=void\ setAbsender(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getEmpfaenger()
+comment4.params=pEmpfaenger
+comment4.target=void\ setEmpfaenger(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getBetreff()
+comment6.params=pBetreff
+comment6.target=void\ setBetreff(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ getDatum()
+comment8.params=pDatum
+comment8.target=void\ setDatum(java.lang.String)
+comment9.params=
+comment9.target=java.lang.String\ getInhalt()
+numComments=11

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Personen()
+comment1.params=pName\ pVorname\ pGeburtstag
+comment1.target=void\ add(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=x\ y
+comment2.target=java.lang.String\ read(int,\ int)
+comment3.params=x
+comment3.target=void\ delete(int)
+comment4.params=
+comment4.target=int\ getArrayLength()
+numComments=5

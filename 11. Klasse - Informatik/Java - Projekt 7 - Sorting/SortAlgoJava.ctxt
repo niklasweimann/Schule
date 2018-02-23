@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SortAlgoJava()
+comment0.text=\r\n\ Konstruktor\r\n
+comment1.params=
+comment1.target=void\ hatKnopfSortierenGeklickt()
+comment1.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfSortieren\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment2.params=
+comment2.target=void\ hatAuswahl1Geaendert()
+comment2.text=\r\n\ Vorher\:\ Ereignis\ GeaendertvonhatAuswahl1\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment3.params=
+comment3.target=void\ hatKnopfRandomGeklickt()
+comment3.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfRandom\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=KochKurve()
+comment1.params=
+comment1.target=void\ fuehreAus()
+comment2.params=stufe\ laenge
+comment2.target=void\ zeichneSchneeFlocke(int,\ double)
+comment3.params=stufe\ laenge
+comment3.target=void\ zeichneKochKurve(int,\ double)
+numComments=4

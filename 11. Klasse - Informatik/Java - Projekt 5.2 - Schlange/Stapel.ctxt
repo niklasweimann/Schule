@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Stapel()
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment1.text=\r\n\ Gibt\ "True"\ zur\u00FCck,\ wenn\ der\ Stapel\ leer\ ist\r\n\ \r\n\ @return\t\tTrue,\ wenn\ der\ Stapel\ leer\ ist\ und\ False,\ wenn\ noch\ etwas\ im\ Stapel\ ist\r\n
+comment2.params=pStapelelement
+comment2.target=void\ push(Stapelelement)
+comment2.text=\r\n\ Legt\ ein\ neues\ Stapelelement\ auf\ den\ Stapel\r\n\ \r\n\ @param\ \ pStapelelement\tStapelelement,\ das\ auf\ den\ Stapel\ gelegt\ werden\ soll.\r\n
+comment3.params=
+comment3.target=void\ pop()
+comment3.text=\r\n\ Entfernt\ das\ oberste\ Element\ des\ Stapels\r\n
+comment4.params=
+comment4.target=Stapelelement\ getTop()
+comment4.text=\r\n\ Gibt\ das\ Oberste\ Stapelelement\ zur\u00FCck\r\n\ \r\n\ @return\t\toberstes\ Stapelelement\r\n
+comment5.params=
+comment5.target=void\ erase()
+comment5.text=\r\n\ Entfernt\ das\ oberste\ Stapelelement\r\n
+numComments=6

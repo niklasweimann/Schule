@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ObstBaum()
+comment1.params=
+comment1.target=void\ fuehreAus()
+comment2.params=pLaenge\ pStufe
+comment2.target=void\ zeichneBaum(double,\ int)
+numComments=3

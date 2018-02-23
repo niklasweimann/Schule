@@ -1,0 +1,123 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size:15px;
+  background-image:url(images/12.jpg);
+  background-repeat: repeat-y;
+  background-repeat: repeat-y;
+  background-attachment:fixed;
+  background-position:center;
+  background-color: #C0C0C0; 
+}
+#container {
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+
+
+}
+
+#kopf {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    background-color: #4A4DFE;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+
+
+}
+#logo {
+	display:block;
+	margin: 25px auto 25px auto;
+}
+#fuss {
+  height: 50px;
+  margin: 10px;
+  background-color: #4A4DFE;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+
+
+}
+#mitte {
+  position: relative;
+  width: 100%;
+}
+#inhalt {
+  margin: 0px 400px;
+  width: 750px;
+  background-color: #ffffc6;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+#Einleitung{
+	font-size:25px;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	
+}
+#links {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 300px;
+  background-color: #4A4DFE;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -khtml-border-radius: 30px;
+  border-radius: 30px;
+
+
+}
+#links a{
+	display:block;
+	height: 24px;
+	padding-left:10px;
+	padding-top:6px;
+	color: black;
+	text-decoration: none;
+}
+#links a:hover{
+	color: white;
+	background-color: #2222aa;
+	border-top: 2px solid #aaaaaa;
+	border-bottom: 2px solid #aaaaaa;
+	border-left: 6px solid #aaaaaa;
+	padding-left:4px;
+}
+#links a.aktiv{
+	border-left: 6px solid #aaaaaa;
+	padding-left: 4px;
+}

@@ -1,0 +1,90 @@
+Begriffe:
+Abstrakte Klassen -> Verallgemeinerung, z.B. Klasse
+Tiere, aus dieser Klasse können keine Objekte 
+erstellt werden, sie dienen als Vorlage für erbende
+Klassen(Thoralf)
+
+Vererbungen -> Spezialisierung, Klassen können von 
+anderen erben, das Vererben erzeugt man mit 
+"extends 'Oberklasse'". Die erbenden Klassen über-
+nehmen den Konstruktor, die Attribute und Methoden
+der Oberklasse und können diese erweitern und über-
+schreiben(Argtim)
+
+BlueJ -> Eine Java Entwicklungsumgebung speziell für
+Ausbildungszwecke(Robin)
+
+Java -> Java ist eine weltweit stark verbreitete
+objektorientierte Programmiersprache(Anastasia)
+
+UML -> Unified Modeling Language, vereinheitlichte
+Modellierungssprache, um Klassen/Programme übersicht-
+lich zu planen und darzustellen(Nick)
+
+Schleifen -> Wiederholung eines Code-Blocks mit
+einer Anweisung, wir kennen:
+-> for
+-> while
+-> do-while
+(Calvin)
+
+Bedingte Anweisungen -> Ein Code-Block der nur unter
+bestimmten Bedingungen ausgeführt wird, wir kennen:
+-> if,else if, else
+-> switch-case
+(Alex)
+
+Sichten -> Zugriffskontrollen in Java, wir kennen:
+-> public - Jede Klasse hat Zugriff auf Methoten/
+Klassen/Attribute mit dieser Sicht
+-> private - Nur die eigene Klasse kann auf Methoden/
+Attribute zugreifen
+-> protected - Nur die eigene und erbende Klassen
+können auf die Methoden/Attribute/Klassen zugreifen
+(Tom)
+
+Klasse -> Vorlage für Objekte, bestehen aus Attributen, 
+Methoden und Kontruktor.
+(Max)
+
+Objekte -> Werden aus Klassen erzeugt und übernehmen
+ihre Eigenschaften.
+(Nicklas)
+
+Methoden -> Methoden sind die Funktionen der Klassen
+und Objekte in Java, durch sie kann z.B. Code über
+Objekte ausgeführt werden.
+(Mizgin)
+
+Getter & Setter -> In  der Regel werden Attribute als
+private deklariert, um dann über öffentliche(public)
+Methoden von der Klasse selbst auf die Attribute zu-
+zugreifen. In diesen Methoden können dann weitere 
+Bedingungen für den Zugriff gestellt werden.
+Die Methoden, die Attribute abrufen, nennt man Getter.
+Die Methoden, die Attribute setzen oder verändern,
+nennt man Setter.
+(Stierl)
+
+sum.kern -> Bibliothek "Stift und Mäuse", hier sind
+Klassen vorgegeben wie z.B. Stift, Buntstift, Bild-
+schirm, Maus,... u.a.
+(Anastasia)
+
+Attribut -> Die Variablen und Objekte von Klassen.
+(Thoralf)
+
+Dokumentation -> Die Dokumentation erklärt den 
+Programmcode für andere Programmierer. Man kann sich
+eine Dokumentation in BlueJ generieren lassen, wenn
+man entsprechende Parameter deklariert, z.B. @param,
+@version, @author,... u.a.
+(Argtim)
+
+Kontruktor -> Der Konstruktor ist eine gleichnamige
+Methode einer Klasse und dient dazu Objekte zu er-
+zeugen. Hier werden die Attribute der Objekte de-
+finiert.
+(Mizgin)
+
+

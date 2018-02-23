@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Schlange()
+comment1.params=value
+comment1.target=void\ enqueue(java.lang.String)
+comment1.text=\r\n\ H\u00E4ngt\ ein\ Schlangenelement\ an\ die\ Schlang\ an\r\n\ \r\n\ @param\ \ value\ \ \ \ Wert,\ der\ in\ das\ Schlangenelement\ gespeichert\ wird\r\n
+comment2.params=
+comment2.target=java.lang.String\ dequeue()
+comment2.text=\r\n\ H\u00E4ngt\ das\ erste\ Element\ von\ der\ Schlange\ ab\ und\ gibt\ den\ Wert\ zur\u00FCck\r\n\ \r\n\ @return\ \ \ \ \ \ Wert\ des\ Schlangenelements\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=\r\n\ Gibt\ zur\u00FCck,\ ob\ die\ Schlange\ leer\ ist\r\n\ \r\n\ @return\ \ \ \ \ \ True,\ wenn\ Schlange\ leer,\ False,\ wenn\ Schlangenelemente\ \r\n\ in\ Schlange\r\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\r\n\ Gibt\ an,\ wie\ gro\u00DF\ die\ Schlange\ ist\r\n\ \r\n\ @return\ \ \ Gibt\ die\ Gr\u00F6\u00DFe\ der\ Schlange\ als\ INT\ zur\u00FCck\r\n
+numComments=5

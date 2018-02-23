@@ -1,0 +1,54 @@
+PR Wa4
+Setze "Zahl" Erstes Eingabefenster "Geben Sie eine Zahl ein!"
+wenn (Eines? :Zahl=1 :Zahl=8 :Zahl=10) dann (
+DZ "Fall d"
+) sonst (
+wenn (Eines? :Zahl=2 :Zahl=6) dann (
+DZ "Fall b & c"
+) sonst (
+wenn (Eines? :Zahl=3) dann (
+DZ "Fall a & b"
+) sonst (
+wenn (Eines? :Zahl=4) dann (
+DZ "Fall b"
+) sonst (
+wenn (Eines? :Zahl=5) dann (
+DZ "Fall b & c & d"
+) sonst (
+wenn (Eines? :Zahl=7) dann (
+DZ "Fall a & c"
+) sonst (
+wenn (Eines? :Zahl=9) dann (
+DZ "Fall e"
+)))))))
+ENDE
+PR WG
+Setze "Zahl" Erstes Eingabefenster "Geben Sie eine Zahl ein!"
+wenn (Eines? :Zahl=1 :Zahl=8 :Zahl=10) dann (
+DZ "Fall d"
+) sonst (
+wenn (Eines? :Zahl=2 :Zahl=6) dann (
+DZ "Fall b & c"
+) sonst (
+wenn (Eines? :Zahl=3) dann (
+DZ "Fall a & b"
+) sonst (
+wenn (Eines? :Zahl=4) dann (
+DZ "Fall b"
+) sonst (
+wenn (Eines? :Zahl=5) dann (
+DZ "Fall b & c & d"
+) sonst (
+wenn (Eines? :Zahl=7) dann (
+DZ "Fall a & c"
+) sonst (
+wenn (Eines? :Zahl=9) dann (
+DZ "Fall e"
+)
+)
+)
+)
+)
+)
+)
+ENDE

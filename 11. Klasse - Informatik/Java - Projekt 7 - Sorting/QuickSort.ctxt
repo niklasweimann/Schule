@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=QuickSort()
+comment1.params=x\ links\ rechts\ f1
+comment1.target=void\ sort(int[],\ int,\ int,\ SortAlgoJava)
+comment2.params=x\ links\ rechts\ f1
+comment2.target=int\ partition(int[],\ int,\ int,\ SortAlgoJava)
+numComments=3

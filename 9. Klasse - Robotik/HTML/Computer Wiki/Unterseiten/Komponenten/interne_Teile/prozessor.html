@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="../../../css.css" /><!--Meta und css-->
+<link rel="shortcut icon" href="../../../Images/favicon.ico"/>
+    <title>Computer-Wiki</title>
+<style type="text/css">
+/*<![CDATA[*/
+ li.c-2 {list-style: none}
+ img.c-1 {vertical-align:middle}
+/*]]>*/
+</style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="kopf">
+            <img id="logo" class="c-1" src="../../../images/logo.jpg" alt="" />
+        </div>
+
+        <div id="mitte">
+            <div id="inhalt">
+                <h1>Der Prozessor</h1>
+                Ein Prozessor ist eine Maschine oder eine elektrische Schatung, die gem&auml;&szlig; &uuml;bergebenen Befehlen andere Maschinen oder elektrische Schaltungen steuert und dabei einen Prozess oder Algorithmus vorantreibt. Prozessoren sind in fast allen elektrischen Ger&auml;ten verbaut, im Computer sind sie jedoch am popul&auml;rsten.
+                <br />
+                Hauptbestandteile eines Prozessor(kern)s sind das Rechenwerk, sowie das Steuerwerk (inkl. Adresswerk). Dar&uuml;ber hinaus enthalten sie meist mehrere Register und einen Speichermanager, der den Arbeitsspeicher verwaltet. Zu den Aufgaben des Prozessors z&auml;hlt unteranderem das Abarbeiten von Maschinenprogrammen, arithmetische und logische Operationen zur Verarbeitung von Daten aus internen oder externen Quellen.
+                <br />
+
+                <h2>Aufbau</h2>
+                Ein Prozessor(kern) besteht aus Registern, einem Rechenwerk (der Arithmetic Logic Unit, kurz ALU), einem Steuerwerk sowie den Datenleitungen (Busse), die die Kommunikation mit anderen Komponenten erm&ouml;glichen.
+                </br>
+                <h2>Steuer- bzw.Leitwerk</h2>
+                Das Steuerwerk oder auch Leitwerk kontrolliert die Ausf&uuml;hrung der Anweisungen. Es sorgt dafür, dass der Maschinenbefehl im Befehlsregister vom Befehlsdecoder dekodiert und vom Rechenwerk und den übrigen Komponenten der Rechenanlage ausgeführt wird.</br>
+                <h2>Rechenwerk und Register</h2>
+                Das Rechenwerk f&uuml;hrt die Elementarenoperationen eines Prozessirs duchr. Es besteht au zwei Teilen, zum einen der arithmetisch-logischen-Einheit und zum anderen aus dem Arbeitsregister. Es kann sowohl aruthmwtische als aich logische Operationen ausf&uuml;hren. </br>
+                <h2>Datenleitungen</h2>
+                Der Prozessor ist &uuml;ber verschiedene Busse mit anderen Komponenten verbunden. &Uuml;ber den Datenbus werden Daten mit dem Arbeitsspeicher ausgetauscht. Je nach CPU hat sie entweder einen oder mehrere (meist zwei) Datenbuse. Der Adressbus dient zur &Uuml;bertragung von Speicheradressen. Mit dem Steuerbus(Kontrollbus) steuert der Prozessor u.a. die Peripherie-Anschl&uuml;sse(z.B. USB, PCI)an.
+                <h2>Chaches und MMU</h2>
+                Um schneller Daten verarbeiten zu k&ouml;nnen nutzen moderne CPUs Chaches, diese dienen als Zwischenspeicher, um die zuletzt verarbeiteten Daten und Befehle zwischenzuspeichern und so die rasche Wiederverwendung erm&ouml;glichen. Sie stellen die zweite Stufe der Speicherhierarchie dar. Normalerweise besitzt ein Prozessor heutzutage bis zu dreistufige Chavhes:
+                <ul>
+                <li>Level-1-Cache (L1-Cache): Dieser Cache läuft mit dem Prozessortakt. Er ist sehr klein (etwa 4 bis 256 Kilobyte), dafür aufgrund seiner Position im Prozessorkern selbst sehr schnell abrufbar.</li>
+                <li>Level-2-Cache (L2-Cache): Der L2-Cache befindet sich meist im Prozessor, aber nicht im Kern selbst. Er umfasst zwischen 64 Kilobyte und 12 Megabyte.</li>
+                <li>Level-3-Cache (L3-Cache): Bei Mehrkernprozessoren teilen sich die einzelnen Kerne den L3-Cache. Er ist der langsamste der drei Caches, aber auch der größte (bis zu 256 Megabyte).</li>
+                </ul>
+                <h2>Verschiedene Architekturen</h2>
+                Es gibt zwei wesentliche CPU Grundarchitekturen diese sind zum einen die Von-Neumann- und die Harvard-Architektur.</br>
+                Bei der nach dem Mathematiker John von Neumann benannten Von-Neumann-Architektur gibt es keine Trennung zwischen dem Speicher für Daten und Programmcode. Dagegen sind bei der Harvard-Architektur Daten und Programm(e) in strikt voneinander getrennten Speicher- und Adressräumen abgelegt, auf die typischerweise durch zwei separierte Bussysteme parallel zugegriffen wird.</br>
+                <h2>Befehlssatz</h2>
+                Der Befehlssatz bezeichnet die Gesamtheit der Maschinenbefehle eines Prozessors. Der Umfang des Befehlssatzes variiert je nach Prozessortyp beträchtlich.</br>
+                <h2>Funktionsweise</h2>
+                Die Befehlsbearbeitung eines Prozessorkerns folgt prinzipiell dem Von-Neumann-Zyklus.</p>
+                <ol>
+                <li>„FETCH“: Aus dem Befehlsadressregister wird die Adresse des nächsten Maschinenbefehls gelesen. Anschließend wird dieser aus dem Arbeitsspeicher (genauer: aus dem L1-Cache) in das Befehlsregister geladen.</li>
+                <li>„DECODE“: Der Befehlsdecoder decodiert den Befehl und aktiviert entsprechende Schaltungen, die für die Ausführung des Befehls nötig sind.</li>
+                <li>„FETCH OPERANDS“: Sofern zur Ausführung weitere Daten zu laden sind (benötigte Parameter), werden diese aus dem L1-Cache-Speicher in die Arbeitsregister geladen.</li>
+                <li>„EXECUTE“: Der Befehl wird ausgeführt. Dies können zum Beispiel Operationen im Rechenwerk, ein Sprung im Programm (eine Veränderung des Befehlsadressregisters), das Zurückschreiben von Ergebnissen in den Arbeitsspeicher oder die Ansteuerung von Peripheriegeräten sein. Abhängig vom Ergebnis mancher Befehle wird das Statusregister gesetzt, das durch nachfolgende Befehle auswertbar ist.</li>
+                <li>„UPDATE INSTRUCTION POINTER“: Sollte kein Sprungbefehl in der EXECUTE-Phase erfolgt sein, wird nun das Befehlsadressregister um die Länge des Befehls erhöht, so dass es auf den nächsten Maschinenbefehl zeigt.</li>
+                </ol>
+                <h2>Steuerung</h2>
+                Da der Prozessor nur mit bin&auml;r Maschinenbefehlen arbeiten kann und dieser Code f&uuml;r den Menschen unlesbar ist, muss er von einer Hochsprache oder einer Assemblersprache durch einen Compiler in eine ausf&uuml;hrbare Datei compiliert, also in Maschienensprache &uuml;bersetzt oder einem Interpreter zur Laufzeit ausgef&uuml;hrt.
+                <h2>Wortbreite</h2>
+                Die Wortbreite legt fest, wie lang ein Maschinenwort des Prozessors sein kann, d.h. aus wie vielen Bits es maximal bestehen kann. Auschlaggebend sind dabei folgende Werte:
+                <li>Arbeits- oder Datenregister: Die Wortbreite bestimmt die maximale Größe der verarbeitbaren Ganz- und Gleitkommazahlen.</li>
+                <li>Datenbus: Die Wortbreite legt fest, wie viele Bits gleichzeitig aus dem Arbeitsspeicher gelesen werden können.</li>
+                <li>Adressbus: Die Wortbreite legt die maximale Größe einer Speicheradresse, d.&nbsp;h. die maximale Größe des Arbeitsspeichers, fest.</li>
+                <li>Steuerbus: Die Wortbreite legt die Art der Peripherieanschlüsse fest.</li></br>
+                <h2>Prozessortakt</h2>
+                Oft wird angenommen, dass die Tacktung eines Prozessors das Ma&szlig; aller Dinge ist, doch dem ist nicht so, denn die Tacktrate ist ein vielfaches des Mainboard-Grundtacktes und somit nicht sehr stark vom Prozessor abh&auml;ngig.
+                <center><a href='javascript:scroll(0,0);'><img src="../../../Images/up.png" border="0" height="64" width="64" alt="Nach Hoch" /></a></center>
+            </div>
+
+            <div id="links">
+	<ul>
+		<li><a href="../../../index.html"><strong>Home</strong></a></li></br>
+		<li><a href="../../Systems/Index_Systeme.html"><strong>Betriebssysteme</strong></a></li></br>
+		<li><a href="../Komponenten.html"><strong>Komponenten</strong></a></li></br>
+		<ul>
+        <li><a href="../externe_Teile/Ex_Per_Index.html"><strong>Externe Ger&auml;te</strong></a></li></br>
+        <li><a href="#"><strong>Interne Ger&auml;te</strong></a></li></br>
+        <ul>
+        <li><a href="arbeitsspeicher.html"><strong>Arbeitsspeicher</strong></a></li>
+        <li><a href="cd-laufwerk.html"><strong>Cd-Laufwerk</strong></a></li>
+        <li><a href="festplatte.html"><strong>Festplatte</strong></a></li>
+        <li><a href="grafikkarte.html"><strong>Grafikkarte</strong></a></li>
+        <li><a href="prozessor.html"><strong>Prozessor</strong></a></li>
+        <li><a href="mainboard.html"><strong>Mainboard</strong></a></li>
+        </ul>
+        </ul>
+		<li><a href="../../History/History.html"><strong>Geschichte des Computers</strong></a></li></br>
+	</ul>
+  </div>
+        </div>
+
+        <div id="fuss">
+            Meine F&uuml;&amp;szml;e
+        </div>
+    </div>
+</body>

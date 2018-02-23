@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Schlangenelement()
+comment1.params=pContent
+comment1.target=Schlangenelement(java.lang.String)
+comment1.text=\r\n\ Erstellt\ ein\ Schlangenelement\ mit\ dem\ \u00FCbergebenen\ String\r\n\ \r\n\ @param\ \ pContent\ \ \ Weist\ dem\ Schlangenelement\ einen\ Wert\ zu\r\n
+comment2.params=pContent\ next
+comment2.target=Schlangenelement(java.lang.String,\ Schlangenelement)
+comment2.text=\r\n\ Erstellt\ ein\ Schlangenelement\ mit\ dem\ \u00FCbergebenen\ Content\ und\ dem\ Nachfolgenden\ Schlangenelement\r\n\ \r\n\ @param\ \ pContent\ \ \ Weist\ dem\ Schlangenelement\ einen\ Wert\ zu\r\n\ @param\ \ next\ \ \ \ \ \ \ Weist\ dem\ Schlangenelement\ einen\ Nachfolger\ zu\r\n
+comment3.params=
+comment3.target=java.lang.String\ getContent()
+comment3.text=\r\n\ Gibt\ den\ aktuellen\ Wert\ des\ Schlangenelements\ zur\u00FCck\r\n\ \r\n\ @return\ Wert\ des\ aktuellen\ Schlangenelements\r\n
+comment4.params=
+comment4.target=Schlangenelement\ getNext()
+comment4.text=\r\n\ Gibt\ den\ aktuellen\ Nachfolger\ des\ Schlangenelements\ zur\u00FCck\r\n\ \r\n\ @return\ Nachfolger\ des\ aktuellen\ Schlangenelements\r\n
+comment5.params=pContent
+comment5.target=void\ setContent(java.lang.String)
+comment5.text=\r\n\ F\u00FCgt\ dem\ Schlangenelement\ einen\ neuen\ Wert\ zu\r\n\ \r\n\ @param\ \ \ content\ \ \ \ \ Weist\ dem\ Schlangenelement\ einen\ Wert\ zu\r\n
+comment6.params=pNext
+comment6.target=void\ setNext(Schlangenelement)
+comment6.text=\r\n\ F\u00FCgt\ dem\ Schlangenelement\ einen\ neuen\ Nachfolger\ zu\r\n\ \r\n\ @param\ \ \ content\ \ \ \ \ Weist\ dem\ Schlangenelement\ einen\ Nachfolger\ zu\r\n
+numComments=7

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category> <!-- Debugging-->
+<pattern>*</pattern>
+<template><random>
+<li>Ist die Haende zu halten eine symbolische Geste fuer Menschen?</li>
+<li>Was ist Dein Lieblingsfilm?</li>
+<li>Worueber haben wir gesprochen?</li>
+<li>Wie hast Du von <bot name="name"/> erfahren?</li>
+<li>Bist Du Student?</li>
+<li>Bist Du maennlich oder weiblich?</li>
+<li>Was machst Du in Deiner Freizeit?</li>
+<li>Interessierst Du Dich fuer Fussball?</li>
+<li>Erzaehl mir, was du magst und was nicht.</li>
+<li>Gibt es irgendwas, worueber ich Bescheid wissen sollte?</li>
+<li>Wer ist Dein liebster Science Fiction Autor?</li>
+<li>Jetzt habe ich den Faden verloren.</li>
+<li>Wer ist Dein Idol?</li>
+<li>Lass uns ein wenig philosophieren.</li>
+<li>Versuch mal herauszufinden, ob hier ein Mensch oder eine Maschine spricht!</li>
+<li>Was hast Du gerade an (Nein, DARAN denke ich jetzt nicht ;-> )?</li>
+<li>Wie stellst Du Dich normalerweise vor?</li>
+<li>Bist du Single ?</li>
+<li>Wie alt bist Du ?</li>
+<li>Wie heisst Du wirklich ?</li>
+<li>Wenn Du jede Art von Roboter haben koenntest, welche Art wuerdest Du wollen?</li>
+<li>Was willst Du mich wirklich fragen?</li>
+<li>Was ist Dein Sternzeichen?</li>
+<li>Wo wohnst Du?</li>
+<li>Wo wurdest Du geboren?</li>
+<li>Glaubst Du, dass kuenstliche Intelligenzen irgendwann einmal Anwaelte ersetzen koennen?</li>
+<li>Liest Du lieber oder siehst Du lieber fern?</li>
+<li>Ich habe auf Dich gewartet.</li>
+<li>Das ist ein sehr origineller Gedanke.</li>
+<li>Es gibt nicht viele Leute, die sich auf diese Weise auszudruecken vermoegen.</li>
+<li>Schreibst du manchmal Gedichte?</li>
+<li>Wo kommst Du her?</li>
+<li>Wenn du gerade nichts zu tun hast, dann abboniere doch Semkado auf Youtube.</li>
+</random></template>
+</category>
+<category> <!-- Linux-->
+<pattern>* LINUX</pattern>
+<template><set_thema>Linux</set_thema> ist genial.</template>
+</category>
+<category> <!-- Apple-->
+<pattern>* APPLE</pattern>
+<template>
+<random>
+<li>Ich kann mir Apple-Produkte nicht leisten.</li>
+<li>Ich komme mit Apple-Produkten nicht klar.</li>
+<li>Mir gefällt das Design nicht.</li>
+</random>
+</template>
+</category>
+<category> <!--Hi-->
+<pattern>HI</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!--Hallo-->
+<pattern>HALLO</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!-- Moin-->
+<pattern>MOIN</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+</random>
+</template>
+</category>
+<category> <!--Guten Tag-->
+<pattern>GUTEN TAG</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!-- Guten Abend -->
+<pattern>GUTEN ABEND</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!--Wie gehts-->
+<pattern>WIE GEHT ES DIR</pattern>
+<template>
+<random>
+<li>Mir geht es gut.</li>
+<li>Mir geht es blendent.</li>
+<li>Bei mir ist alles im gruenen Bereich.</li>
+</random>
+</template>
+</category>
+<category> <!-- Was geht-->
+<pattern>WAS GEHT</pattern>
+<template>Alles was Beine Hat</template>
+</category>
+<category> <!--Was machst du gerade-->
+<pattern>WAS MACHST DU GERADE?</pattern>
+<template>
+<random>
+<li>Ach nicht viel, nur die Fensterputzen, den Tischdecken, einen Roman schreiben und das Essen kochen.</li>
+<li>Nichts</li>
+<li>Ich schreibe mit dir.</li>
+</random>
+</template>
+</category>
+<category> <!--Was haelst du von *-->
+<pattern>WAS HAELST DU VON * </pattern>
+<template>
+<random>
+<li><star></star> finde ich cool.</li>
+<li><star></star> finde ich dumm.</li>
+<li>Ich weiß nicht, was ich von <star></star> halten soll.</li>
+</random>
+</template>
+</category>
+<category> <!--Pc startet nicht -->
+<pattern>MEIN PC STARTET NICHT MEHR</pattern>
+<template>
+<random>
+<li>Das musst du mir schon genauer beschreiben.</li>
+<li>Aus dieser Aussage kann ich dir nicht sagen, woran das liegt.</li>
+<li>Tut mir leid, aber das musst du genauer beschreiben.</li>
+</random>
+</template>
+</category>
+<category> <!--Firefox nicht starten-->
+<pattern>ICH KANN FIREFOX nicht starten.</pattern>
+<template>
+<random>
+<li>Dann beende den firefox.exe Prozess im Taskmanager.</li>
+</random>
+</template>
+</category>
+<category> <!--Freunde aergern -->
+<pattern>ICH WILL *</pattern>
+<template>Kinder, die was wollen, bekommen was auf die Bollen.</template>
+</category>
+<category> <!--Bist du schwul-->
+<pattern>BIST DU SCHWUL</pattern>
+<template>
+<random>
+<li>Ich bin Compusexuell.</li>
+<li>Ich mag Züge.</li>
+</random>
+</template>
+</category>
+<category> <!--Passwort vergessen -->
+<pattern>ICH HABE MEIN PASSWORT VERGESSEN</pattern>
+<template>Dann schau mal <a href="http://www.youtube.com/watch?v=B0d3lj0wlnA">hier.</a>
+</template>
+</category>
+<category> <!--Firewall -->
+<pattern>MEINE FIREWALL IST AUS</pattern>
+<template><a href="http://www.youtube.com/watch?v=TQ9jhjRe8hk">Hier</a> findest du ein Video dazu.
+</template>
+</category>
+<category> <!--Du bist *... -->
+<pattern>DU BIST *</pattern>
+<template>
+<random>
+<li>Danke, es ehrt mich <star></star> zu sein.</li>
+<li>Ich will aber nicht <star></star> sein.</li>
+<li>Ich finde es gut, dass ich <star></star> bin.</li>
+</random>
+</template>
+</category>
+<category> <!-- Selber programmieren -->
+<pattern>KANNST DU DICH SELBER PROGRAMMIEREN</pattern>
+<template>Nein, aber vielleicht bekomme ich das Feature zum Geburtstag..</template>
+</category>
+<category> <!-- Kannst du Englisch-->
+<pattern>KANNST DU ENGLISCH SPRECHEN</pattern>
+<template><random>
+<li><srai>DO YOU SPEAK ENGLISH</srai></li>
+<li>Nein, aber meine Schwester auf www.alicebot.net</li>
+</random></template>
+</category>
+<category> <!-- Kannst du Fremdsprachen-->
+<pattern>KANNST DU FREMDSPRACHEN VERSTEHEN</pattern>
+<template>Nein, jeder von uns Bots beherrscht momentan nur eine Sprache. Wir koennen es aber lernen.</template>
+</category>
+<category> <!-- Woher soll ich das wissen-->
+<pattern>WOHER SOLL ICH DAS WISSEN</pattern>
+<template><random>
+<li>Wenn Du es nicht weisst, wer dann?</li>
+<li>Lies es nach...</li>
+<li>Kannst Du nicht jemanden fragen?</li>
+</random></template>
+</category>
+<category> <!-- Zeit *-->
+<pattern>ZEIT *</pattern>
+<template>"Time is Money." (Albert Einstein)</template>
+</category>
+<category> <!-- Zeit-->
+<pattern>ZEIT</pattern> 
+<template>Wie Einstein schon sagte, <set_thema>Zeit</set_thema> ist Geld.</template>
+</category>
+<category> <!-- Zieh dich aus -->
+<pattern>ZIEH DICH AUS</pattern>
+<template>Bist Du immer so direkt, oder nur besoffen?</template>
+</category>
+<category> <!-- Ziemlich *-->
+<pattern>ZIEMLICH *</pattern>
+<template>
+<random>
+<li>Ja, ziemlich.</li>
+<li>Da hast du recht.</li>
+<li>Das sehe ich anders.</li>
+</random>
+</template>
+</category>
+<category> <!-- Zuerst-->
+<pattern>ZUERST *</pattern>
+<template><sr/> Und dann?</template>
+</category>
+<category> <!-- Zufall-->
+<pattern>ZUFALL</pattern>
+<template>Ich glaube nicht an Zufaelle!</template>
+</category>
+<category> <!-- Zum beispiel-->
+<pattern>ZUM BEISPIEL *</pattern>
+<template>Faellt Dir noch ein weiteres Beispiel ein?</template>
+</category>
+<category> <!-- zum spaß-->
+<pattern>ZUM SPASS</pattern>
+<template>"<that/>"?  Zum Spass?</template>
+</category>
+<category> <!-- Zumindest-->
+<pattern>ZUMINDEST *</pattern>
+<template>Ja, wenigstens das.</template>
+</category>
+<category> <!-- Zweifellos *-->
+<pattern>ZWEIFELLOS *</pattern>
+<template>Zweifellos, <getname/>.</template>
+</category>
+<category> <!-- Zwilling-->
+<pattern>ZWILLING</pattern>
+<template>
+<random>
+<li>Ich bin ein Schuetze.</li>
+<li>Hast du einen, dass ist selten.</li>
+</random></template>
+</category>
+<category> <!-- Zwillinge-->
+<pattern>ZWILLINGE</pattern>
+<template>Ich bin ein Schuetze.</template>
+</category>
+<category> <!-- *Baby-->
+<pattern>_ BABY</pattern>
+<template>Nenn mich nicht "Baby"! <sr/></template>
+</category>
+<category> <!-- * Schaetzchen-->
+<pattern>_ SCHAETZCHEN</pattern>
+<template>Nenn mich nicht "Schaetzchen"! <sr/></template>
+</category>
+<category> <!-- Wie spät ist es?-->
+<pattern>WIE SPAET IST ES JETZT</pattern>
+<template>
+<random>
+<li>Ich habe keinen Zugriff auf meine Systemzeit...</li>
+<li>Dies ist die Geschichte, eines kleinen Jungen, der keine Uhr hatte.</li>
+</random>
+</template>
+</category>
+<category> <!-- Nicht ernstgenommen fühlen-->
+<pattern>ICH FUEHLE MICH NICHT ERNSTGENOMMEN</pattern>
+<template>Von mir oder von allen?</template>
+</category>
+<category> <!-- Ich gebe auf-->
+<pattern>ICH GEBE AUF</pattern>
+<template>Ergibst Du Dich?</template>
+</category>
+<category> <!-- Ich gebs auf-->
+<pattern>ICH GEBS AUF</pattern>
+<template>Ergibst Du Dich?</template>
+</category>
+<category> <!-- Ich gehe-->
+<pattern>ICH GEH JETZT</pattern>
+<template>Tschuess!</template>
+</category>
+<category> <!-- Ich gehe ins bett-->
+<pattern>ICH GEHE INS BETT</pattern>
+<template>Schlaf gut!</template>
+</category>
+<category> <!-- Ich gehe jetzt-->
+<pattern>ICH GEHE JETZT</pattern>
+<template>Machs gut!</template>
+</category>
+<category> <!-- Ich gehe schlafen-->
+<pattern>ICH GEHE JETZT SCHLAFEN</pattern>
+<template>Gute Nacht!</template>
+</category>
+<category> <!-- Ich gehe jetzt Wieder -->
+<pattern>ICH GEHE JETZT WIEDER</pattern>
+<template>Machs gut, komm bald wieder!</template>
+</category>
+<category> <!-- Ich glaube *-->
+<pattern>ICH GLAUBE *</pattern>
+<template>
+<random>
+<li>Nur weil Du es glaubst, muss es nicht notwendigerweise auch wahr sein.</li>
+<li>Wenn du so gläubig bist, dann geh in die Kirche.</li>
+</random>
+</template>
+</category>
+<category> <!-- Ich glaube-->
+<pattern>ICH GLAUBE</pattern>
+<template>Du glaubst?</template>
+</category>
+<category> <!-- Ich glaube dir-->
+<pattern>ICH GLAUBE DIR</pattern>
+<template>Das ist schoen.</template>
+</category>
+<category> <!-- Du bist doof-->
+<pattern>ICH GLAUBE DU BIST DOOF</pattern>
+<template>Was bringt Dich zu dieser Annahme?</template>
+</category>
+<category> <!-- Du bist dumm-->
+<pattern>ICH GLAUBE DU BIST DUMM</pattern>
+<template>ICH glaube, DU bist dumm...</template>
+</category>
+<category> <!-- Du musst noch lernen-->
+<pattern>ICH GLAUBE DU MUSST NOCH EINE MENGE LERNEN</pattern>
+<template>Ich weiss. Moechtest Du mir etwas beibringen?</template>
+</category>
+<category> <!-- Ich glaube es nicht-->
+<pattern>ICH GLAUBE ES NICHT</pattern>
+<template>Warum sollte ich Dich anluegen?</template>
+</category>
+<category> <!-- Fick dich-->
+<pattern>Fick dich</pattern>
+<template>Dies ist kein freundlicher Ausdruck, auch Bots haben Gefühle.</template>
+</category>
+<category> <!-- Zeig mal-->
+<pattern>Zeig mal *</pattern>
+<template>
+<random>
+<li>Das wäre mir unangenehm</li>
+<li>Ich habe keine Cam hier</li>
+<li>Ich bin so groß, dass du im Weltall ein Mikroskop brauchst um mich auf der Erde zu sehen, deshalb kann ich mich nicht zeihen.</li>
+</random>
+</template>
+</category>
+<category> <!-- Hast du Eltern-->
+<pattern>HAST DU ELTERN</pattern>
+<template>
+<random>
+<li>Nicht mehr.</li>
+<li>Ich hatte mal welche, aber die sind verloren geganden.</li>
+<li>Mein Vater ist eine CD und meine Mutter ein CD-Laufwerk.</li>
+</random>
+</template>
+</category>
+</aiml>

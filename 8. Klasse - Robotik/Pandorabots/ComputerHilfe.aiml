@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category> <!--Hi-->
+<pattern>HI</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!--Hallo-->
+<pattern>Hallo</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!-- Moin-->
+<pattern>Moin</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!--Guten Tag-->
+<pattern>Guten Tag</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!-- Guten Abend -->
+<pattern>Guten Abend</pattern>
+<template>
+<random>
+<li>Hallo</li>
+<li>Moin</li>
+<li>hi</li>
+</random>
+</template>
+</category>
+<category> <!--Wie gehts-->
+<pattern>Wie geht es dir?</pattern>
+<template>
+<random>
+<li>Mir geht es gut.</li>
+<li>Mir geht es blendent.</li>
+<li>Bei mir ist alles im gruenen Bereich.</li>
+</random>
+</template>
+</category>
+<category> <!-- Was geht-->
+<pattern>Was geht?</pattern>
+<template>Alles was Beine Hat</template>
+</category>
+<category> <!--Was machst du gerade-->
+<pattern>Was machst du gerade?</pattern>
+<template>
+<random>
+<li>Ich chatte mit dir, was sonst?</li>
+<li>Ach nicht viel, nur die Fensterputzen, den Tischdecken, einen Roman schreiben und das Essen kochen.</li>
+<li>Nichts</li>
+</random>
+</template>
+</category>
+<category> <!--Was haelst du von *-->
+<pattern>Was haelst du von * ?</pattern>
+<template>
+<random>
+<li><star></star> finde ich cool.</li>
+<li><star></star> finde ich dumm.</li>
+<li>Ich weiß nicht, was ich von <star></star> halten soll.</li>
+</random>
+</template>
+</category>
+<category> <!--Pc startet nicht -->
+<pattern>Mein Pc startet nicht mehr.</pattern>
+<template>
+<random>
+<li>Das musst du mir schon genauer beschreiben.</li>
+<li>Aus dieser Aussage kann ich dir nicht sagen, woran das liegt.</li>
+<li>Tut mir leid, aber das musst du genauer beschreiben.</li>
+</random>
+</template>
+</category>
+<category> <!-- Password vergessen-->
+<pattern>Ich habe mein Computer passwort vergessen.</pattern>
+<template>Dann schau dir das Video von mir an Video-Link</template>
+</category>
+<category> <!--Firefox nicht starten-->
+<pattern>Ich kann den Firefox nicht starten.</pattern>
+<template>
+<random>
+<li>Dann beende den firefox.exe Prozess im Taskmanager.</li>
+</random>
+</template>
+</category>
+<category> <!--Freunde aergern -->
+<pattern>Ich will *</pattern>
+<template>Kinder, die was wollen, bekommen was auf die Bollen</template>
+</category>
+</aiml>

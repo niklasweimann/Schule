@@ -1,0 +1,46 @@
+#BlueJ class context
+comment0.params=
+comment0.target=List()
+comment1.params=
+comment1.target=Listenelement\ getLast()
+comment1.text=\r\n\ Gibt\ das\ letzte\ Listenelement\ in\ der\ Liste\ zur\u00FCck\r\n\ \r\n\ @return\t\tlast\ \=\ Letztes\ Element\ in\ der\ Liste\r\n
+comment10.params=
+comment10.target=void\ toLast()
+comment10.text=\r\n\ Der\ Positionszeiger\ steht\ auf\ dem\ letzten\ Listenelement.\ Falls\ die\ Liste\ leer\ ist\ befindet\ er\ \r\n\ sich\ jetzt\ vor\ der\ Liste.\r\n\ \r\n
+comment11.params=
+comment11.target=Listenelement\ getItem()
+comment11.text=\r\n\ Die\ Anfrage\ liefert\ den\ Wert\ des\ aktuellen\ Listenelements\ bzw.\ null,\ wenn\ die\ Liste\ keine\ Elemente\ \r\n\ enth\u00E4lt,\ bzw.\ der\ Positionszeiger\ vor\ oder\ hinter\ der\ Liste\ steht.\ \r\n\ \r\n\ @return\t\t(Beschreibung\ des\ R\u00FCckgabewertes)\r\n
+comment12.params=pEMail
+comment12.target=void\ insertBehind(EMail)
+comment12.text=\r\n\ Vorher\:\ Der\ Positionszeiger\ steht\ nicht\ hinter\ der\ Liste.\ \r\n\ Nachher\:\ Ein\ neues\ Listenelement\ mit\ dem\ entsprechenden\ Objekt\ ist\ angelegt\ und\ hinter\ der\ aktuellen\ \r\n\ \ \ \ \ \ \ \ \ \ Position\ in\ die\ Liste\ eingef\u00FCgt\ worden.\ Der\ Positionszeiger\ steht\ vor\ dem\ eingef\u00FCgten\ Element.\ \r\n\ \r\n\ @param\ \ EMail\tObjekt,\ dass\ eingef\u00FCgt\ werden\ soll\r\n
+comment13.params=pEMail
+comment13.target=void\ insertBefore(EMail)
+comment13.text=\r\n\ Vorher\:\ Der\ Positionszeiger\ steht\ nicht\ vor\ der\ Liste.\ \r\n\ Nachher\:\ Ein\ neues\ Listenelement\ mit\ dem\ entsprechenden\ Objekt\ ist\ angelegt\ und\ vor\ der\ aktuellen\r\n\ \ \ \ \ \ \ \ \ \ Position\ in\ die\ Liste\ eingef\u00FCgt\ worden.\ Der\ Positionszeiger\ steht\ hinter\ dem\ eingef\u00FCgten\ \r\n\ \ \ \ \ \ \ \ \ \ Element.\ \r\n\ \r\n\ @param\ \ EMail\tObjekt,\ dass\ eingef\u00FCgt\ werden\ soll\r\n
+comment14.params=
+comment14.target=void\ delete()
+comment14.text=\r\n\ Vorher\:\ Der\ Positionszeiger\ steht\ nicht\ vor\ oder\ hinter\ der\ Liste.\ \r\n\ Nachher\:\ Das\ aktuelle\ Listenelement\ ist\ gel\u00F6scht.\ Der\ Positionszeiger\ steht\ auf\ dem\ Element\ hinter\ dem\r\n\ \ \ \ \ \ \ \ \ \ gel\u00F6schten\ Element,\ bzw.\ hinter\ der\ Liste,\ wenn\ das\ gel\u00F6schte\ Element\ das\ letzte\ Listenelement\r\n\ \ \ \ \ \ \ \ \ \ war.\ \r\n\ \r\n
+comment2.params=
+comment2.target=int\ getSize()
+comment2.text=\r\n\ Gibt\ die\ Anzahl\ der\ Listenelemente\ zur\u00FCck\r\n\ \r\n\ @return\t\tsize\ \=\ Anzahl\ der\ Elemente\ in\ der\ Liste\r\n
+comment3.params=
+comment3.target=int\ getPos()
+comment3.text=\r\n\ Gibt\ die\ Anzahl\ der\ Listenelemente\ zur\u00FCck\r\n\ \r\n\ @return\t\tpos\ \=\ Position\ in\ der\ Liste\ als\ Integer\r\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\r\n\ Die\ Anfrage\ liefert\ den\ Wert\ true,\ wenn\ die\ Liste\ keine\ Elemente\ enth\u00E4lt,\ sonst\ liefert\ sie\ den\ \r\n\ Wert\ false.\r\n\ \r\n\ @return\t\t(Beschreibung\ des\ R\u00FCckgabewertes)\r\n
+comment5.params=
+comment5.target=boolean\ isBefore()
+comment5.text=\r\n\ Die\ Anfrage\ liefert\ den\ Wert\ true,\ wenn\ der\ Positionszeiger\ vor\ dem\ ersten\ Listenelement\ oder\ vor\ der\ \r\n\ leeren\ Liste\ steht,\ sonst\ liefert\ sie\ den\ Wert\ false.\r\n\ \r\n\ @return\t\t(Beschreibung\ des\ R\u00FCckgabewertes)\r\n
+comment6.params=
+comment6.target=boolean\ isBehind()
+comment6.text=\r\n\ Die\ Anfrage\ liefert\ den\ Wert\ true,\ wenn\ der\ Positionszeiger\ hinter\ dem\ letzten\ Listenelement\ oder\ \r\n\ hinter\ der\ leeren\ Liste\ steht,\ sonst\ liefert\ sie\ den\ Wert\ false.\ \r\n\ \r\n\ @return\t\t(Beschreibung\ des\ R\u00FCckgabewertes)\r\n
+comment7.params=
+comment7.target=void\ next()
+comment7.text=\r\n\ Der\ Positionszeiger\ ist\ um\ eine\ Position\ in\ Richtung\ Listenende\ weiterger\u00FCckt,\ d.h.\ wenn\ er\ vor\ der\ \r\n\ Liste\ stand,\ wird\ das\ Element\ am\ Listenanfang\ zum\ aktuellen\ Element,\ ansonsten\ das\ jeweils\ nachfolgende\ \r\n\ Listenelement.\ Stand\ der\ Positionszeiger\ auf\ dem\ letzten\ Listenelement,\ befindet\ er\ sich\ jetzt\ hinter\ \r\n\ der\ Liste.\ Befand\ er\ sich\ hinter\ der\ Liste,\ hat\ er\ sich\ nicht\ ver\u00E4ndert.\ \r\n\ \r\n
+comment8.params=
+comment8.target=void\ previous()
+comment8.text=\r\n\ Der\ Positionszeiger\ ist\ um\ eine\ Position\ in\ Richtung\ Listenanfang\ weiterger\u00FCckt,\ d.h.\ wenn\ er\ hinter\r\n\ der\ Liste\ stand,\ wird\ das\ Element\ am\ Listenende\ zum\ aktuellen\ Element,\ ansonsten\ das\ jeweils\r\n\ vorhergehende\ Listenelement.\ Stand\ der\ Positionszeiger\ auf\ dem\ ersten\ Listenelement,\ befindet\ er\ sich\r\n\ jetzt\ vor\ der\ Liste.\ Befand\ er\ sich\ vor\ der\ Liste,\ hat\ er\ sich\ nicht\ ver\u00E4ndert.\ \r\n\ \r\n\ @param\ \ y\t(Beschreibung\ des\ Parameters)\r\n\ @return\t\t(Beschreibung\ des\ R\u00FCckgabewertes)\r\n
+comment9.params=
+comment9.target=void\ toFirst()
+comment9.text=\r\n\ Der\ Positionszeiger\ steht\ auf\ dem\ ersten\ Listenelement.\ Falls\ die\ Liste\ leer\ ist\ befindet\ er\ sich\ \r\n\ jetzt\ hinter\ der\ Liste.\ \r\n\ \r\n
+numComments=15

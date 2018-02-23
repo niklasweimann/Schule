@@ -1,0 +1,69 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../css.css" />
+<!--Meta und css-->
+<title>Computer-Wiki</title>
+<link rel="shortcut icon" href="../../Images/favicon.ico"/>
+</head>
+<body>
+<div id="container">
+<div id="kopf"><img id="logo" style="vertical-align:middle" src="../../images/logo.jpg"/></div>
+<div id="mitte">
+  <div id="inhalt">
+  <a href="Turing-Vollstaendigkeit.html"></a>
+<u><h2>Turing-Vollständigkeit</h2></u>
+</br>
+<h3>Definition und Anwendung</h3>
+</br>
+Exakt ausgedrückt bezeichnet Turing-Vollständigkeit in der Berechenbarkeitstheorie die Eigenschaft einer Programmiersprache oder eines anderen logischen Systems, sämtliche Funktionen berechnen zu können, die eine universelle Turingmaschine berechnen kann.</br>
+Anders ausgedrückt, das System und eine universelle Turingmaschine können sich gegenseitig emulieren. Noch vor der Prägung des Begriffes wurde der erste turingmächtige mathematische Formalismus von Kurt Gödel im Jahre 1931 in seiner Arbeit zum Unvollständigkeitssatz veröffentlicht.</br>
+Obwohl solche Maschinen physikalisch unmöglich sind, da sie unbegrenzten Speicherplatz besitzen müssten, wird der Begriff Turing-vollständig bei gängigen Programmiersprachen und Computern angewandt, die universell wären, wenn sie unbegrenzten Speicher besäßen. </br>
+Charles Babbages Analytical Engine wäre in diesem Sinne Turing-vollständig gewesen, wenn sie jemals gebaut worden wäre. Die erste Maschine, von der die Turing-Vollständigkeit sicher bekannt ist, ist die programmgesteuerte Z3 von Konrad Zuse, die 1941 gebaut wurde.</br>
+Die Universalität dieses Rechners war jedoch in der Zeit seiner Entstehung noch unbekannt und wurde erst später bewiesen. Alle modernen Computer sind ebenfalls im weiteren Sinne Turing-vollständig.</br>
+Im Jahre 1954 veröffentlichte Hans Hermes als einer der ersten einen Beweis für die Turing-Vollständigkeit von von-Neumann-Rechenmaschinen, also tatsächlich realisierter Computer.</br>
+Eine Maschine, welche Turing-vollständig ist, kann jede Berechnung, die irgendein Computer ausführen kann, ebenso ausführen und wird daher auch als universell programmierbar bezeichnet. Hierdurch ergibt sich jedoch weder eine Aussage über den Aufwand, ein bestimmtes Programm auf einer solchen Maschine zu implementieren, noch über die Zeit, die zur Ausführung benötigt werden würde.</br>
+Die Berechenbarkeitstheorie befasst sich damit, welche Probleme mit Hilfe einer Maschine insbesondere mit einer Turingmaschine lösbar sind.</br>
+</br>
+</br>
+<h3>Beispiele</h3>
+</br>
+Die gängigen Programmiersprachen sind Turing-vollständig. Dies schließt konventionelle prozedurale Sprachen wie C und objektorientierte Sprachen wie C++ und Java ein. </br>
+Auch Sprachen, die nach weniger geläufigen Paradigmen entworfen wurden, unter anderem funktionale Programmiersprachen wie LISP und Haskell und Sprachen für Logikprogrammierung wie Prolog, sind Turing-vollständig.</br>
+Beispiele für nicht Turing-vollständige Programmiersprachen zu finden fällt Fachleuten schwer, da diese die Sprachen nach Funktionalität filtern und strukturelle Sprachen und rein prozess-orientierte von vornherein als sehr eingeschränkt erachten und sie gar nicht erst in die Betrachtung aufnehmen. </br>
+Ein häufig diskutiertes Beispiel sind SGML-Dialekte und -Derivate wie beispielsweise das – Internet-Nutzern zumindest dem Namen und der Nutzung nach bekannte – HTML (HyperText Markup Language): Diese Struktur-Sprache ist bei Einsatz aller gegebenen Attribute durchaus in der Lage, universelle Beschreibungen für Prozesse zu halten; auch die zeit-diskrete Steuerung bzw. die zeitliche Abfolge lässt sich mit Hilfe der Relationalen beschreiben.</br>
+Alle Instrumentale, die nötig wären, sind im Sprachschatz vorhanden. Einziges Hindernis zur Aufnahme in die Reihe der in diesem Artikel diskutierten Sprachen stellt die Tatsache dar, dass HTML in sich nicht aktiv sein kann; erst in Ergänzung um eine aktive Komponente (z. B. JavaScript) oder durch den ausführenden Browser, in welchem das Konstrukt verarbeitet wird, ergibt sich die Steuerbarkeit und verfolgbare zeitliche und hierarchische Abhängigkeit. </br>
+Da HTML jedoch vor allem für spezielle Segmente wie Muster-Bibliotheken, Platzhalter für dynamisch erzeugte Inhalte, als passive Listung für im Browser vorgezeichnete Routinen, für Formulare und zur Kapselung von Prozessen eingesetzter Scripte genutzt wird, ist HTML eher wie die zuvor an zweiter Stelle erwähnten prozess-orientierten Sprachen, nämlich die Stapel-Verarbeitungen und Stacking-Coda, zu betrachten.</br>
+Einige Autoren definieren den Begriff „Programmiersprache“ auf Basis der Turing-Vollständigkeit. Eine Folge von Formeln in einer Tabellenkalkulation ohne Schleife ist nicht Turing-vollständig, obwohl es möglich ist, viele interessante Operationen mit einem solchen System zu erzeugen. </br>
+Die Makrosprache in Excel (VBA) ist jedoch Turing-vollständig. Ein weiteres bekanntes Beispiel sind reguläre Ausdrücke in Programmiersprachen, Editoren oder Systemwerkzeugen (z. B. grep, sed, …), wo sie vor allem zum Pattern Matching verwendet werden. </br>
+In vielen Implementierungen werden reguläre Ausdrücke um Konstrukte wie Rückwärtsreferenzen (engl. backreferences) erweitert, wodurch sie nicht mehr von endlichen Automaten erzeugt werden können. Sie sind jedoch weiterhin Turing-unvollständig. Ein weiteres Beispiel für eine nicht-Turing-vollständige Sprache ist die Relationale Algebra, da es nicht möglich ist, die transitive Hülle zu berechnen. </br>
+Außerdem verfügt die Relationale Algebra eben nicht über Schleifen. Eine wichtige Schlussfolgerung aus der Berechenbarkeitstheorie ist, dass es keinen Algorithmus geben kann, der über jedes in einer bestimmten Turing-vollständigen Programmiersprache geschriebene Programm aussagen kann, ob es in endlicher Zeit abbricht oder für immer in einer Schleife bleibt (siehe Halteproblem). </br>
+Eine Methode, dieses Problem zu umgehen, ist das Abbrechen eines Programmablaufs nach einer fixen Zeitspanne oder das Herabsetzen der Mächtigkeit von Kontroll-Anweisungen. Solche Systeme sind jedoch strikt nicht-Turing-vollständig. </br>
+Dieses Resultat wurde z. B. von Brainerd und Landweber von PL und PL-{GOTO}-Sprachen abgeleitet. Ein weiteres Theorem stammt aus der Berechenbarkeitstheorie: Mit einer Maschine, die nur endliche Schleifen bietet (zum Beispiel LOOP), ist garantiert, dass jedes Programm irgendwann anhält. </br>
+Mit dieser Maschine können jedoch nicht alle Probleme gelöst werden, die von einer Turing-Maschine gelöst werden können, z. B. die Ackermann-Funktion.</br>
+Der untypisierte Lambda-Kalkül ist Turing-vollständig, aber viele typbehaftete Kalküle, unter anderem System F, sind es nicht. Der Vorteil von typbehafteten Systemen ist ihre Möglichkeit, die meisten „typischen“ Computerprogramme darzustellen, dabei aber mehr Fehler entdecken zu können.</br>
+    </br>
+    <center><a href='javascript:scroll(0,0);'><img src="../../Images/up.png" border="0" height="64" width="64" alt="Nach Hoch" /></a></center>
+  </div>
+  <div id="links">
+	<ul>
+		<li><a href="../../index.html"><strong>Home</strong></a></li></br>
+
+		<li><a href="../Systems/Index_Systeme.html"><strong>Betriebssysteme</strong></a></li></br>
+
+		<li><a href="../Komponenten/Komponenten.html"><strong>Komponenten</strong></a></li></br>
+
+		<li><a href="History.html"><strong>Geschichte des Computers</strong></a></li></br>
+		<ul>
+		<li><a href="VonNeumannArchitektur.html"><strong>Von-Neumann-Architektur</strong></a></li></br>
+		</ul>
+		<ul>
+        <li><a href="Turing-Vollstaendigkeit.html"><strong>Turing-Vollständigkeit</strong></a></li>
+        </ul>
+
+	</ul>
+  </div>
+</div>
+<div id="fuss"><a href="../../Quellen.html"><strong>---Quellen---</strong></a></div>
+</div>
+</body>
+</html>

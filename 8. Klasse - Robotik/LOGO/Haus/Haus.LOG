@@ -1,0 +1,11 @@
+PR Haus :SL
+li 90
+wh 3[
+re 120
+vw :Sl
+]
+wh 4[
+li 90
+vw :SL
+]
+ENDE

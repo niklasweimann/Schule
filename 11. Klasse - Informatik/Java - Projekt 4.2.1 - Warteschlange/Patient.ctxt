@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=pName\ pNachname\ pKrankenkasse
+comment0.target=Patient(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=java.lang.String\ getNachname()
+comment3.params=
+comment3.target=java.lang.String\ getKrankenkasse()
+comment4.params=pPatient
+comment4.target=void\ setNachfolger(Patient)
+comment5.params=
+comment5.target=Patient\ getNachfolger()
+numComments=6

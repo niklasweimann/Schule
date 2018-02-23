@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Stapelelement()
+comment1.params=pContent
+comment1.target=Stapelelement(java.lang.String)
+comment1.text=\r\n\ Erstellt\ ein\ Stapelelement\ mit\ dem\ \u00FCbergebenen\ String\r\n\ \r\n\ @param\ \ pContent\ \ \ Weist\ dem\ Stapelelement\ einen\ Wert\ zu\r\n
+comment2.params=pContent\ next
+comment2.target=Stapelelement(java.lang.String,\ Stapelelement)
+comment2.text=\r\n\ Erstellt\ ein\ Stapelelement\ mit\ dem\ \u00FCbergebenen\ Content\ und\ dem\ Nachfolgenden\ Stapelelemnt\r\n\ \r\n\ @param\ \ pContent\ \ \ Weist\ dem\ Stapelelement\ einen\ Wert\ zu\r\n\ @param\ \ next\ \ \ \ \ \ \ Weist\ dem\ Stapelelement\ einen\ Nachfolger\ zu\r\n
+comment3.params=
+comment3.target=java.lang.String\ getContent()
+comment3.text=\r\n\ Gibt\ den\ aktuellen\ Wert\ des\ Stapelelements\ zur\u00FCck\r\n\ \r\n\ @return\ Wert\ des\ aktuellen\ Stapelelements\r\n
+comment4.params=
+comment4.target=Stapelelement\ getNext()
+comment4.text=\r\n\ Gibt\ den\ aktuellen\ Nachfolger\ des\ Stapelelements\ zur\u00FCck\r\n\ \r\n\ @return\ Nachfolger\ des\ aktuellen\ Stapelelements\r\n
+comment5.params=pContent
+comment5.target=void\ setContent(java.lang.String)
+comment5.text=\r\n\ F\u00FCgt\ dem\ Stapelelement\ einen\ neuen\ Wert\ zu\r\n\ \r\n\ @param\ \ \ content\ \ \ \ \ Weist\ dem\ Stapelelement\ einen\ Wert\ zu\r\n
+comment6.params=pNext
+comment6.target=void\ setNext(Stapelelement)
+comment6.text=\r\n\ F\u00FCgt\ dem\ Stapelelement\ einen\ neuen\ Nachfolger\ zu\r\n\ \r\n\ @param\ \ \ content\ \ \ \ \ Weist\ dem\ Stapelelement\ einen\ Nachfolger\ zu\r\n
+numComments=7

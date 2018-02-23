@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=derBildschirm\ meinStift
+comment0.target=Figur(sum.kern.Bildschirm,\ sum.kern.Buntstift)
+comment1.params=n\ m
+comment1.target=void\ setzeKreuz(int,\ int)
+comment2.params=meineFigur
+comment2.target=void\ hatNachfolger(Figur)
+comment3.params=dieFigur
+comment3.target=void\ hatNN(Figur)
+comment4.params=
+comment4.target=int\ getN()
+comment5.params=
+comment5.target=int\ getM()
+comment6.params=
+comment6.target=boolean\ getKreis()
+comment7.params=n\ m
+comment7.target=void\ setzeKreis(int,\ int)
+numComments=8

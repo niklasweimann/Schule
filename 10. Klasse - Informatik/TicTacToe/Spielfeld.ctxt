@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Spielfeld()
+comment1.params=h\ v
+comment1.target=void\ nmPosition(double,\ double)
+comment2.params=dieFigur
+comment2.target=void\ setzeKreis(Figur)
+comment3.params=dieFigur
+comment3.target=void\ setzeKreuz(Figur)
+comment4.params=
+comment4.target=void\ hatNachfolger()
+comment5.params=
+comment5.target=void\ zeichne()
+numComments=6

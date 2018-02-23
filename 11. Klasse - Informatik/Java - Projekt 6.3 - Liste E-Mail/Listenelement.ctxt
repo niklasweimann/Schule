@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Listenelement()
+comment1.params=pEMail
+comment1.target=Listenelement(EMail)
+comment2.params=pInhalt\ pNext\ pPrevious
+comment2.target=Listenelement(EMail,\ Listenelement,\ Listenelement)
+comment3.params=
+comment3.target=Listenelement\ getNext()
+comment4.params=
+comment4.target=Listenelement\ getPrevious()
+comment5.params=
+comment5.target=EMail\ getInhalt()
+comment6.params=pNext
+comment6.target=void\ setNext(Listenelement)
+comment7.params=pObject
+comment7.target=void\ setPrevious(Listenelement)
+comment8.params=pInhalt
+comment8.target=void\ setInhalt(EMail)
+numComments=9

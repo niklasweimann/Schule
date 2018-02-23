@@ -1,0 +1,27 @@
+h1 {
+    font-size: 5em;
+}
+table {
+    background-color: whitesmoke;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.tabelle{
+    float: right;
+    width: 49%
+}
+.tabelle .firstrow{
+    background-color: darkcyan;
+    color: white;
+}
+.input{
+    float: left;
+    width: 49%;
+}
+.input form label{
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}

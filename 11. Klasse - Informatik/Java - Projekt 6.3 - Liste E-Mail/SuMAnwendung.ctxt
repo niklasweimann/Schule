@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SuMAnwendung()
+comment0.text=\r\n\ Konstruktor\r\n
+comment1.params=
+comment1.target=void\ hatKnopfzurGeklickt()
+comment1.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfzur\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment2.params=
+comment2.target=void\ hatKnopfvorGeklickt()
+comment2.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfvor\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment3.params=
+comment3.target=void\ hatKnopfLoeschenGeklickt()
+comment3.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfvor\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment4.params=
+comment4.target=void\ hatKnopfSpeichernGeklickt()
+comment4.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfvor\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+comment5.params=
+comment5.target=void\ hatKnopfdemoGeklickt()
+comment5.text=\r\n\ Vorher\:\ Ereignis\ GeklicktvonhatKnopfvor\ fand\ statt.\r\n\ Nachher\:\ (schreiben\ Sie,\ was\ in\ dieser\ Methode\ ausgefuehrt\ wird)\r\n
+numComments=6

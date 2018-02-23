@@ -1,0 +1,60 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../../css.css" />
+<!--Meta und css-->
+<title>Computer-Wiki</title>
+<link rel="shortcut icon" href="../../../Images/favicon.ico"/>
+</head>
+<body>
+<div id="container">
+<div id="kopf"><img id="logo" style="vertical-align:middle" src="../../../images/logo.jpg"/></div>
+<div id="mitte">
+  <div id="inhalt">
+	<p>
+      <h2><u>Technik</u></h2>
+      Der Kernel erstellt eine Schnittstelle f&uuml;r die Software, mit deren Hilfe die Software dann auf die Hardware zugreifen kann ohne sie zu kennen. Der Kernel ist in der Programmiersprache C geschrieben.<br/> Wichtige Teilroutinen sowie zeitkritische Module sind jedoch in prozessorspezifischer Assemblersprache programmiert.Das einzige, das der Kernel erm&ouml;glicht ist die n&ouml;tigen Treiber f&uuml;r die jeweilige Hardware zu laden.<br/> Der Kernel &uuml;bernimmmt ebenfalls die Zuweisung von Prozessorzeit und die Ressourcen der Programme, die auf ihm gestartet werden. Das Design der einzelnen technischen Vorg&auml;ngen orientiert sich stark an seinem Vorbild Unix.<br/> Das Repertoire des auf eine sehr gro&szlig;e Anzahl von Hardware-Architekturen portierten Linux Kernels reicht von "exotischen" Bedingungen wie dem iPAQ-Handheld-Computer, Navigationsger&auml;ten von TomTom, Digitalkameras<br/> bishin zu Gro&szlig;rechnern wie dem <i>System z</i> von IBM und auch Mobiltelefonen wie dem <i>Motorola A780</i> und soger Smartphones mit Android Betriebssystem. Die monolithische Grundarchitektur blieb dabei immer erhalten.<br/> Durch die Orientierung der Urversion auf die verbreiteten x86-PCskam es fr&uuml;h dazu,dass verschiedenste Hardware effizient unterst&uuml;tzt werden konnte und die Bereitstellung von Treibern auch<br/> unerfahrenen Programmierern erm&ouml;glicht wurde. Dies befl&uuml;gelte die Verbreitung.
+      </p>
+      <p>
+      <h2><u>Kernel-Versionen</u></h2>
+      Auf der Internetseite <i>kernel.org</i> werden alle Referenzkernel der Kernel-Versionen archiviert. Darauf bauen die einzelnen Distributionskernel, die von Linux-Distributionen erg&auml;nzt werden k&ouml;nnen, auf. Besonders dabei ist,<br/> das aus vier Zahlen bestehende und durch Punkte getrennte Versionsnummernscheman, z.B <i>2.6.14.1</i>, welches Auskunft &uuml;ber die exakte Version und damit auch die F&auml;higkeiten des entsprechenden Kernels.<br/> Die letzte der vier Zahlen wird f&uuml;r Fehlerbehebung und Bereinigungen ge&auml;ndert, aber nicht f&uuml;r tiefgreifende &Auml;nderungen und neue Funktionen, weshalb sie beim Vergleichen von Kernel-Versionen meist nicht mit angegeben wird.<br/> Bei neuen F&auml;higkeiten oder Funktionen muss die vorletzte Zahl ge&auml;ndert werden. Dasselbe gilt f&uuml;r die erste Zahl, wobei hier die &Auml;nderungen drastischer ausfallen m&uuml;ssen.<br/> Die zweite Zahl wird seit der Version 3.0 (August 2011) nicht mehr verwendet.
+      </p>
+      <p>
+      <h2><u>Neuerungen im Kernel 2.6</u></h2>
+      Graphische und interaktive Anwendungen werden auf dem seit 2001 erh&auml;ltlichen Kernel 2.6 deutlich schneller ausgef&uuml;hrt. <i>Ingo Moln&aacute;r</i> konzipierte den sogenannten <i>O(1)-Scheduler</i> f&uuml;r den 2.6er-Kernel komplett neu.<br/> Er besitzt die Fähigkeit, das Zuweisen von Prozessorzeit zu unterschiedlichen Prozessen unabhängig von der Anzahl der Prozesse in konstanter Zeit zu erledigen. Der <i>Completely Fair Scheduler</i> kommt stattdessen seit<br/> der Version 2.6.23 zum Einsatz.Die Einführung von <i>Access Control Lists</i> ist eine andere Neuerung, mit Hilfe davon ein sehr fein abgestimmtes Rechtemanagement möglich ist,<br/> was vor allen Dingen in Umgebungen mit vielen Benutzern sehr wichtig ist. Eine deutlich verbesserte &Uuml;berwachung der Datein geh&ouml;rt ebenfalls zu den Weiterentwicklungen. In der neuen Version, Inotify genannt,<br/> gibt die Überwachung bei jeder Operation an einer Datei eine Nachricht ab, was z. B. für Desktop-Suchmaschinen wichtig ist, die daraufhin ihren Index in Bezug auf diese Datei aktualisieren können.
+      </p>
+      <p>
+      <h2><u>Der Entwicklungsprozess</u></h2>
+      Die Entwicklung von Linux liegt durch die GPL und durch ein sehr offenes Entwicklungsmodell nicht in der Hand von Einzelpersonen, Konzernen oder Ländern, sondern in der Hand einer weltweiten Gemeinschaft vieler Programmierer,<br/> die sich vor allen Dingen über das Internet austauschen. In vielen E-Mail-Listen, aber auch in Foren und im Usenet besteht für jedermann die Möglichkeit, die Diskussionen über den Kernel zu verfolgen, sich daran zu beteiligen und auch<br/> aktive Beiträge zur Entwicklung beizutragen. Durch diese unkomplizierte Vorgehensweise ist eine schnelle und stetige Entwicklung gewährleistet, die auch die Möglichkeit mit sich bringt, dass jeder dem Kernel Fähigkeiten zukommen<br/> lassen kann, die er benötigt. Eingegrenzt wird dies nur durch die Kontrolle von Linus Torvalds und einigen speziell ausgesuchten Programmierern, die das letzte Wort über die Aufnahme von Verbesserungen und Patches haben.
+      </p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p>
+      <a href="Linux.html">Zur&uuml;ck zu Linux</a>
+      </p>
+  </div>
+  <div id="links">
+	<ul>
+		<li><a href="../../index.html"><strong>Home</strong></a></li></br>
+		<li><a href="#"><strong>Betriebssysteme</strong></a></li></br>
+	       	<ul>
+                <li><a href="Linux.html"><strong>Linux</strong></a></li>
+                    <ul>
+                    <li><a href="Distributionen.html"><strong>Distributionen</strong></a></li>
+                    <li><a href="Kernel.html"><strong>Kernel</strong></a></li>
+                    <li><a href="Einsatzbereiche.html"><strong>Einsatzbereiche</strong></a></li>
+                    </ul>
+                <li><a href="../Windows/Microsoft_Windows.html"><strong>Micosoft</strong></a></li>
+                <li><a href="../Mac.html"><strong>Mac</strong></a></li>
+                <li><a href="../Unix/Unix.html"><strong>Unix</strong></a></li>
+                <li><a href="../MS_DOS.html"><strong>MS_Dos</strong></a></li>
+           </ul>
+		<li><a href="../../Komponenten/Komponenten.html"><strong>Komponenten</strong></a></li></br>
+		<li><a href="../History/History.html"><strong>Geschichte des Computers</strong></a></li></br>
+	</ul>
+  </div>
+</div>
+<div id="fuss"><a href="../../../Quellen.html"><strong>---Quellen---</strong></a></div>
+</div>
+</body>
+</html>

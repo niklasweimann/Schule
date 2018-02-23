@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Warteraum()
+comment1.params=pPatient
+comment1.target=void\ neuerPatient(Patient)
+comment2.params=
+comment2.target=void\ entferneErstenPatient()
+comment3.params=
+comment3.target=Patient\ kenntErsterPatient()
+numComments=4

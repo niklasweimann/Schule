@@ -1,0 +1,99 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../css.css" />
+<!--Meta und css-->
+<title>Computer-Wiki</title>
+<link rel="shortcut icon" href="../../Images/favicon.ico"/>
+</head>
+<body>
+<div id="container">
+<div id="kopf"><img id="logo" style="vertical-align:middle" src="../../images/logo.jpg"/></div>
+<div id="mitte">
+  <div id="inhalt">
+<u><h2>Von-Neumann-Architektur</h2></u>
+</br>
+Die Von-Neumann-Architektur (VNA) ist ein Referenzmodell für Computer, wonach ein gemeinsamer Speicher sowohl Computerprogrammbefehle als auch Daten hält. </br>
+Von-Neumann-Systeme gehören nach der Flynnschen Klassifikation zur Klasse der SISD-Architekturen (Single Instruction, Single Data), im Unterschied zur Parallelverarbeitung.</br>
+Die Von-Neumann-Architektur bildet die Grundlage für die Arbeitsweise der meisten heute bekannten Computer. </br>
+Sie ist benannt nach dem österreichisch-ungarischen, später in den USA tätigen Mathematiker John von Neumann, dessen wesentliche Arbeit zum Thema 1945 veröffentlicht wurde. </br>
+Sie wird manchmal auch nach der gleichnamigen US-Universität Princeton-Architektur genannt.</br>
+</br>
+</br>
+<u><h3>Entwicklung</h3></u>
+</br>
+Von Neumann beschrieb das Konzept 1945 in dem zunächst unveröffentlichten Papier „First Draft of a Report on the EDVAC“ im Rahmen des Baus der EDVAC-Rechenmaschine. </br>
+Es war seinerzeit revolutionär, denn zuvor entwickelte Rechner waren an ein festes Programm gebunden, das entweder hardwaremäßig verschaltet war oder über Lochkarten eingelesen werden musste. </br>
+Mit der Von-Neumann-Architektur war es nun möglich, Änderungen an Programmen sehr schnell und ohne Änderungen an der Hardware durchzuführen oder in kurzer Folge verschiedene Programme ablaufen zu lassen.</br>
+Viele Ideen der Von-Neumann-Architektur waren schon vorher 1936 von Konrad Zuse ausgearbeitet, in zwei Patentschriften 1937 dokumentiert und größtenteils bereits 1938 in der Z1-Maschine mechanisch realisiert worden. </br>
+Es gilt aber als unwahrscheinlich, dass von Neumann die Arbeiten Zuses kannte, als er 1945 seine Architektur vorstellte.</br>
+Die meisten der heute gebräuchlichen Computer basieren auf dem Grundprinzip der Von-Neumann-Architektur, d. h. ihre Eigenschaften entsprechen denen einer VNA. </br>
+Dies bedeutet jedoch typischerweise nicht mehr, dass sie intern wie eine einfache VNA mit den wenigen VNA-Funktionsgruppen aufgebaut sind. </br>
+Im Laufe der Zeit wurden viele der ursprünglich als einfache VNA-Rechnerarchitekturen erdachten, z. B. die x86-Architektur, jenseits davon ausdifferenziert und weitaus komplexer weiterentwickelt. </br>
+Dies geschah um Leistungszuwächse zu erzielen, ohne jedoch mit dem leicht beherrschbaren VNA-Modell zu brechen, d. h. aus Softwaresicht kompatibel zu diesem zu bleiben um dessen Vorteile weiter nutzen zu können.</br>
+Mit dem Trend der wachsenden Zahl von parallelen Recheneinheiten (Multicore) und Bussen (z. B. HyperTransport) wird diese Kompatibilität immer aufwändiger und schwieriger zu realisieren. </br>
+Es ist daher zu erwarten, dass in absehbarer Zukunft ein Paradigmenwechsel zu einem anderen, parallelen Architekturmodell notwendig sein wird, um Leistungszuwächse in Rechnerarchitekturen erzielen zu können. </br>
+Erste Vorboten sind zum Beispiel das aufkommende NUMA-Computing, bei dem der Speicher nicht mehr als mit "uniformen"-Eigenschaften behaftet betrachtet wird.</br>
+</br>
+</br>
+<u><h3>Konzept</h3></u>
+</br>
+Die Von-Neumann-Architektur ist ein Schaltungskonzept zur Realisierung universeller Rechner (Von-Neumann-Rechner, VNR).</br> Sie realisiert alle Komponenten einer Turingmaschine. Dabei ermöglicht ihre systematische Aufteilung in die entsprechenden Funktionsgruppen jedoch die Nutzung spezialisierter binärer Schaltwerke und damit eine effizientere Strukturierung der Operationen.</br>
+Im Prinzip bleibt es aber dabei, dass alles, was mit einer Turingmaschine berechenbar ist, auch auf einer Maschine mit Von-Neumann-Architektur berechenbar ist und umgekehrt. </br>
+Gleiches gilt für alle höheren Programmiersprachen, die durch einen Compiler oder Interpreter auf die binäre Repräsentation abgebildet werden. </br>
+Sie vereinfachen zwar das Handling der Operationen, bieten jedoch keine Erweiterung der von der Turingmaschine vorgegebenen Semantik. </br>
+Dies wird daran deutlich, dass die Übersetzung aus einer höheren Programmiersprache in die binäre Repräsentation wiederum von einem binären Programm ohne Anwenderinteraktion vorgenommen wird.</br>
+</br>
+</br>
+<h3>Programmablauf</h3>
+</br>
+Diese Komponenten arbeiten Programmbefehle nach folgenden Regeln ab.
+
+<ul>
+<li>Prinzipien des gespeicherten Programms:
+<ul>
+<li>Befehle sind in einem RAM-Speicher mit linearem (1-dimensionalem) Adressraum abgelegt.  </br>
+    <li>Ein Befehls-Adressregister, genannt Befehlszähler oder Programmzähler, zeigt auf den nächsten auszuführenden Befehl.   </br>
+    <li>Befehle können wie Daten geändert werden.</li></ul>
+<li>Prinzipien der sequentiellen Programm-Ausführung (siehe auch Von-Neumann-Zyklus):
+<ul>
+<li>Befehle werden aus einer Zelle des Speichers gelesen und dann ausgeführt.
+<li>Normalerweise wird dann der Inhalt des Befehlszählers um Eins erhöht
+<li>Es gibt einen oder mehrere Sprung-Befehle, die den Inhalt des Befehlszählers um einen anderen Wert als +1 verändern.
+<li>Es gibt einen oder mehrere Verzweigungs-Befehle, die in Abhängigkeit vom Wert eines Entscheidungs-Bit den Befehlszähler um</br>
+    Eins erhöhen oder einen Sprung-Befehl ausführen.</li></ul>
+</li></ul>
+</br>
+</br>
+
+<u><h3>Die Eigenschaften der Von-Neumann-Architektur</h3></u>
+</br>
+<h3>Vorteile</h3>
+</br>
+Der streng sequentielle Ablauf einer Von-Neumann-Architektur ist der entscheidende Vorteil gegenüber anderen, parallelen Architekturen (z. B. Cluster (Computer), Harvard-Architektur) und der Grund für die ungebrochene Popularität dieser Architektur. </br>
+Aus der Sicht des Programmierers ist ein einfacher, deterministischer Programmablauf garantiert, Race-Conditions und Daten-Inkohärenzen sind durch den einzelnen Bus, über den die CPU auf Daten und Programm zugreift, ausgeschlossen.</br>
+    </br>
+    <center><a href='javascript:scroll(0,0);'><img src="../../Images/up.png" border="0" height="64" width="64" alt="Nach Hoch" /></a></center>
+  </div>
+  <div id="links">
+	<ul>
+		<li><a href="../../index.html"><strong>Home</strong></a></li></br>
+
+		<li><a href="../Systems/Index_Systeme.html"><strong>Betriebssysteme</strong></a></li></br>
+
+		<li><a href="../Komponenten/Komponenten.html"><strong>Komponenten</strong></a></li></br>
+
+		<li><a href="History.html"><strong>Geschichte des Computers</strong></a></li></br>
+		<ul>
+		<li><a href="VonNeumannArchitektur.html"><strong>Von-Neumann-Architektur</strong></a></li></br>
+		</ul>
+		<ul>
+        <li><a href="Turing-Vollstaendigkeit.html"><strong>Turing-Vollständigkeit</strong></a></li>
+        </ul>
+
+	</ul>
+  </div>
+</div>
+<div id="fuss"><a href="../../Quellen.html"><strong>---Quellen---</strong></a></div>
+</div>
+</body>
+</html>
